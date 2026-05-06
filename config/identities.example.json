@@ -1,0 +1,25 @@
+{
+  "_comment": "Git identity guard configuration. Copy this file to ${CLAUDE_PLUGIN_DATA}/identities.json and customize for your accounts.",
+  "_fields": {
+    "remote_pattern": "Substring matched against the git remote origin URL. Use org/user names from your remote URLs (e.g., 'github.com/MyOrg', 'gitlab.com/personal').",
+    "user_name": "Expected git user.name for repositories matching this pattern.",
+    "user_email": "Expected git user.email for repositories matching this pattern."
+  },
+  "identities": [
+    {
+      "remote_pattern": "github.com/WorkOrg",
+      "user_name": "Your Name",
+      "user_email": "you@work.com"
+    },
+    {
+      "remote_pattern": "github.com/PersonalUser",
+      "user_name": "Your Name",
+      "user_email": "you@personal.com"
+    },
+    {
+      "remote_pattern": "gitlab.com/freelance",
+      "user_name": "Your Name",
+      "user_email": "you@freelance.com"
+    }
+  ]
+}

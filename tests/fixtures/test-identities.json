@@ -1,0 +1,9 @@
+{
+  "identities": [
+    {
+      "remote_pattern": "github.com/sabs-test-identity-check",
+      "user_name": "Test User",
+      "user_email": "test@example.com"
+    }
+  ]
+}

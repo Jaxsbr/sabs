@@ -1,0 +1,9 @@
+{
+  "identities": [
+    {
+      "remote_pattern": "github.com/sabs-test-identity-check",
+      "user_name": "Wrong User",
+      "user_email": "wrong@example.com"
+    }
+  ]
+}

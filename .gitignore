@@ -1,0 +1,17 @@
+# Editor / OS
+.DS_Store
+*.swp
+*.swo
+
+# Local identity config (created from config/identities.example.json)
+config/identities.json
+
+# Build-loop runtime lock
+.build-loop.lock
+
+# Local environment
+.env
+.env.*
+*.key
+*.pem
+credentials.json

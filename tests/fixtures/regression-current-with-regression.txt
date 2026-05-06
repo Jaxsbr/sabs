@@ -1,0 +1,8 @@
+tests/test_math.py::test_addition PASSED
+tests/test_math.py::test_subtraction FAILED
+tests/test_math.py::test_multiplication PASSED
+tests/test_math.py::test_division PASSED
+tests/test_strings.py::test_concat PASSED
+tests/test_strings.py::test_split PASSED
+tests/test_strings.py::test_strip PASSED
+tests/test_strings.py::test_upper PASSED
