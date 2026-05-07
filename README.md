@@ -2,6 +2,10 @@
 
 A Claude Code plugin that packages a phased engineering workflow for taking features from specification through shipped, reviewed, and compounded code.
 
+## Why
+
+SABS is an experiment in autonomous software construction. The goal is to map — concretely, through real builds — where AI agents handle software development reliably, where they fail, and which phases of the SDLC can be safely automated next. Compound engineering is how that map gets drawn: every retrospective is a data point, and every prevention fix at the earliest possible point is a step toward more of the lifecycle being delegable.
+
 ## What is SABS?
 
 SABS implements a four-stage build cycle:
