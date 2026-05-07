@@ -70,7 +70,7 @@ Once published to a marketplace, install at user scope for global availability a
 
 **Version: 0.4.0 -- Portability**
 
-All 13 skills are migrated. Reference docs are now portable -- new learnings write to the project directory (`docs/plan/LEARNINGS.md`), not the plugin source. The plugin-shipped MANUAL.md is read-only baseline reference. No hardcoded workspace paths remain in skills or docs.
+All 13 skills are portable: no hardcoded workspace paths anywhere. The plugin ships a single read-only reference doc — `docs/MANUAL.md` — and nothing else that the runtime writes to. Each project accumulates its own `docs/plan/LEARNINGS.md` from scratch via `phase-retro`; the plugin no longer carries a baseline learnings file.
 
 | Phase | Description | Status |
 |-------|-------------|--------|
